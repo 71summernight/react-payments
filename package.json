@@ -1,0 +1,41 @@
+{
+  "name": "react-payments",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "https://github.com/71summernight/react-payments.git",
+  "author": "hyunjinkim <71summernight@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx",
+    "serve": "vite serve",
+    "test": "jest",
+    "coverage": "jest --coverage --coverage-reporters html",
+    "watch:test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.4.2",
+    "@swc/jest": "^0.2.36",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "vite": "^5.1.4"
+  }
+}
