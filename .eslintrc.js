@@ -8,10 +8,10 @@ module.exports = {
     },
     "extends": [
         "plugin:@typescript-eslint/recommended",
-        'xo',
+        "xo",
         "plugin:react/jsx-runtime",
-        'plugin:prettier/recommended'
-
+        "plugin:prettier/recommended",
+        "plugin:storybook/recommended"
     ],
     "overrides": [
         {
